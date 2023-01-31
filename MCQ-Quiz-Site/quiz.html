@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js" defer></script>
+</head>
+<body>
+    <div class="quiz_container">
+        <div class="quiz_header"> 
+            <h2 id='Question'>Question</h2>
+                <ul>
+                    <li><input type="radio" id='a' name='answer'><label id='a_text'for="a">Question</label></li>
+                    <li><input type="radio" id='b' name='answer'><label id='b_text'for="b">Question</label></li>
+                    <li><input type="radio" id='c' name='answer'><label id='c_text'for="c">Question</label></li>
+                    <li><input type="radio" id='d' name='answer'><label id='d_text'for="d">Question</label></li>
+                </ul>
+        </div>
+    <button onclick={onSubmit()}>Submit</button>
+    </div>
+</body>
+</html>
